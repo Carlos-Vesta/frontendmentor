@@ -1,8 +1,84 @@
 
-/* Global configuration */
+/* Importing Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
 
+/* Global configuration */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/* Styling the body */
+body {
+    background-color: #F4D04E;
+    font-family: 'Figtree', sans-serif;;
+}
+
+
+/* Styling the DIV card */
+.card {
+    background-color: #fff;
+    max-width: 380px;
+    margin: 200px auto;
+    padding: 1.4rem;
+    border-radius: 10px;
+}
+
+
+/* Styling the image */
+.img-article {
+    border-radius: 10px;
+}
+
+
+/* Styling Learning Text */
+.learning {
+    background-color: #F4D04E;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Styling Date Published */
+.date-published {
+    margin-bottom: 1rem;
+}
+
+
+/* Styling H2 */
+h2 {
+    margin: 1rem 0;
+}
+
+h2:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+
+/* Styling Main Text */
+.main-text {
+    margin: 1rem 0;
+    color: #a5a2a2;
+}
+
+
+/* Styling Avatar image */
+.img-avatar {
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Styling avatar name */
+.greg {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-weight: bold;
 }
