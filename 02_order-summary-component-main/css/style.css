@@ -1,0 +1,31 @@
+
+/* Configuracao Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Configuracao do Body */
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+/* Configurando a div container */
+.container {
+    max-width: 450px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+/* Configurando a imagem Hero */
+.img-hero {
+    border-radius: 10px 10px 0 0 ;
+}
