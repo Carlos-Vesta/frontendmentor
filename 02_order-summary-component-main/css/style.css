@@ -29,3 +29,13 @@ body {
 .img-hero {
     border-radius: 10px 10px 0 0 ;
 }
+
+/* Configuracao da div Order Summary */
+div.order-summary {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
